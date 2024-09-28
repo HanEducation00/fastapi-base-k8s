@@ -1,4 +1,28 @@
-#### 1. Jenkinsfile
+#### 1. Map
+```
+pipeline_test_production_2/
+│
+├── app/
+│   └── main.py
+│
+├── k8s.app/
+│   ├── deployment.yaml
+│   └── service.yaml
+│
+├── k8s.test/
+│   ├── test-deployment.yaml
+│   └── test-service.yaml
+│
+├── k8s.prod/
+│   ├── prod-deployment.yaml
+│   └── prod-service.yaml
+│
+├── Dockerfile
+├── README.md
+└── requirements.txt
+```
+
+#### 2. Jenkinsfile
 
 ```
 pipeline {
